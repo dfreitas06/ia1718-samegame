@@ -2,7 +2,7 @@
 #IA 17/18
 #
 #Author: Diogo Freitas   ist181586
-#Author: Joao Rodrigues  isti83483
+#Author: Joao Rodrigues  ist424786
 
 import * from search.py
 import * from utils.py
