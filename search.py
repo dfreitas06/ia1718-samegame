@@ -206,6 +206,11 @@ def graph_search(problem, frontier):
                         child not in frontier)
     return None
 
+def greedy_search(problem, h=None):
+    """f(n) = h(n)"""
+    h = memoize(h or problem.h, 'h')
+    return best_first_graph_search(problem, h)
+
 
 def breadth_first_tree_search(problem):
     """Search the shallowest nodes in the search tree first."""
